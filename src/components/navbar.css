@@ -16,6 +16,9 @@
     background-color: #fccf0c;
     font-size: 1.8rem;
 }
+.brand:hover {
+    background-color: #f9e377;
+}
 .nav {
     font-family: 'Poppins', sans-serif;
 }
@@ -35,4 +38,12 @@ li > a {
 }
 li:hover {
     background: #fccf0c;
+}
+.iconoCarrito {
+    float: right;
+    padding: 13px;
+    background-color: #fccf0c;
+}
+.iconoCarrito:hover {
+    background-color: #f9e377;
 }
