@@ -1,13 +1,16 @@
 import React from 'react';
-import NavBar from './components/NavBar.js';
+import NavBar from './components/NavBar/NavBar.js';
 import ItemListContainer from './containers/ItemListContainers/ItemListContainer.js';
 
 function App() {
   return (
     <div>
-      <NavBar />
-      
-      <ItemListContainer greeting="Proximamente Tienda Online" />
+      <header>
+        <NavBar />
+      </header>
+      <section>
+        <ItemListContainer greeting="Proximamente Tienda Online" />
+      </section>
     </div>
   );
 }

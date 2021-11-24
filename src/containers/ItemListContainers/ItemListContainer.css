@@ -10,7 +10,8 @@
 
 .mensaje {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     float: right;
+    display: inline-block;
     padding: 12px;
 }
